@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<occi:objects xmlns:occi="http://schemas.ogf.org/occi" 
+    xmlns:xml="http://www.w3.org/XML/1998/namespace" 
+    xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd ">
+	<occi:action term="stop" scheme="http://schemas.ogf.org/occi/infrastructure/compute/action#">
+		<occi:attribute name="method" value="graceful"></occi:attribute>
+    </occi:action>
+</occi:objects>
