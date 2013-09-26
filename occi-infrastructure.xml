@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<occi:extension id="idvalue0" name="" scheme="http://tempuri.org" version="" xmlns:occi="http://schemas.ogf.org/occi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd ">
-  <annotation id="idvalue1">
-    <appinfo source="http://tempuri.org"/>
-  </annotation>
-</occi:extension>
