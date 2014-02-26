@@ -2,7 +2,7 @@
 <occi:extension xmlns:occi="http://schemas.ogf.org/occi"
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd " name="Infrastructure"
-	version="1">
+	status="stable" version="1">
 	<!-- Compute Kind -->
 	<occi:kind term="compute" scheme="http://schemas.ogf.org/occi/infrastructure#"
 		title="Compute Resource">
