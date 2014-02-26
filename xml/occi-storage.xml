@@ -3,7 +3,24 @@
 		xmlns:xs="http://www.w3.org/2001/XMLSchema"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd " name="Storage"
-		status="draft" version="1">
+		status="experimental" version="1">
+
+  <!--
+      Storage Container Kind (resource)
+  -->
+  <occi:kind term="container" scheme="http://schemas.ogf.org/occi/storage#"
+	     title="Container Resource (dir)">
+    <occi:parent scheme="http://schemas.ogf.org/occi/core#" term="resource" />
+    <occi:attribute name="occi.storage.size" type="xs:integer" title="Container Size (#children)" />
+  </occi:kind>
+
+  <!--
+      Storage Container entry Kind (link)
+  -->
+  <occi:kind term="containerentry" scheme="http://schemas.ogf.org/occi/storage#"
+	     title="Container Entry Link">
+    <occi:parent scheme="http://schemas.ogf.org/occi/core#" term="link" />
+  </occi:kind>
 
   <!--
       Data Kind
