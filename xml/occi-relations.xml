@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<occi:extension xmlns:occi="http://schemas.ogf.org/occi"
+		xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://schemas.ogf.org/occi occi.xsd " name="Resources relations and constraints"
+		version="1">
+
+  <occi:kind term="provides" scheme ="http://schemas.ogf.org/occi/rel#" title="Virtual resource">
+    <occi:parent scheme="http://schemas.ogf.org/occi/core#" term="link" />
+  </occi:kind>
+  
+  <occi:kind term="depends" scheme ="http://schemas.ogf.org/occi/rel#" title="Requirements">
+    <occi:parent scheme="http://schemas.ogf.org/occi/core#" term="link" />
+  </occi:kind>
+
+  <occi:kind term="conflicts" scheme ="http://schemas.ogf.org/occi/rel#" title="Virtual package">
+    <occi:parent scheme="http://schemas.ogf.org/occi/core#" term="link" />
+  </occi:kind>
+
+  <occi:mixin term="version" scheme="http://schemas.ogf.org/occi/rel#" >
+    <occi:attribute term="occi.rel.version" type="xs:string" title="Version" immutable="false" />
+    <occi:attribute term="occi.rel.op" type="occi:op" title="Relation operator" immutable="false" />
+  </occi:mixin>
+
+  <occi:mixin term="location" scheme="http://schemas.ogf.org/occi/rel#" >
+    <occi:attribute term="occi.rel.country" type="xs:string" title="Country (ISO 3166)" immutable="false" />
+  </occi:mixin>
+
+  <occi:mixin term="lang" scheme="http://schemas.ogf.org/occi/rel#" >
+    <occi:attribute term="occi.rel.lang" type="xs:string" title="Language (ISO XXX)" immutable="false" />
+  </occi:mixin>
+
+  <occi:mixin term="status" scheme="http://schemas.ogf.org/occi/rel#" >
+    <occi:attribute term="occi.rel.status" type="xs:string" immutable="false"
+		    title="If resource has a status, the constraint is valid when resource status is one of the values" />
+  </occi:mixin>
+
+  <xs:simpleType name="op" >
+    <xs:restriction base="xs:string" >
+      <xs:enumeration value="gt" />
+      <xs:enumeration value="lt" />
+      <xs:enumeration value="ge" />
+      <xs:enumeration value="le" />
+    </xs:restriction>
+  </xs:simpleType>
+</occi:extension>
+
