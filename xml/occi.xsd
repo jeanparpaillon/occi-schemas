@@ -34,7 +34,6 @@
 	    <xs:element name="kind" type="occi:kindType" maxOccurs="unbounded" minOccurs="0" />
 	    <xs:element name="mixin" type="occi:mixinType" maxOccurs="unbounded" minOccurs="0" />
 	    <xs:element name="action" type="occi:actionSpecType" maxOccurs="unbounded" minOccurs="0" />
-	    <xs:element ref="xs:simpleType" maxOccurs="unbounded" minOccurs="0" />
 	  </xs:sequence>
 	  <xs:attribute name="name" type="xs:string"></xs:attribute>
 	  <xs:attribute name="version" type="xs:string"></xs:attribute>
@@ -101,8 +100,6 @@
 		  </xs:documentation>
 		</xs:annotation>
 	      </xs:attribute>
-	      <xs:attribute name="minOccurs" type="xs:nonNegativeInteger" use="optional" default="1" />
-	      <xs:attribute name="maxOccurs" type="xs:allNNI" use="optional" default="1" />
 	    </xs:extension>
 	  </xs:complexContent>
 	</xs:complexType>
@@ -187,6 +184,6 @@
 	</xs:complexType>
 
 	<xs:complexType name="xlinkType" >
-	  <xs:attribute name="href" type="xl:hrref" />
+	  <xs:attribute name="href" type="xl:href" />
 	</xs:complexType>
       </xs:schema>
