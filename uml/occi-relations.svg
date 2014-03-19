@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="41cm" height="22cm" viewBox="279 199 820 435" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="380" y="200" width="179.4" height="56"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="200" width="179.4" height="56"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="469.7" y="219">Resource</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="469.7" y="234.5">(from</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="469.7" y="248.5">occi::core)</text>
+    <rect style="fill: #ffffff" x="380" y="256" width="179.4" height="20"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="256" width="179.4" height="20"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="383" y="270">+summary: String[0..1]</text>
+    <rect style="fill: #ffffff" x="380" y="276" width="179.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="380" y="276" width="179.4" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="800" y="200" width="68.6" height="56"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="200" width="68.6" height="56"/>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="834.3" y="219">Link</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="834.3" y="234.5">(from</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:italic;font-weight:normal" x="834.3" y="248.5">occi::core)</text>
+    <rect style="fill: #ffffff" x="800" y="256" width="68.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="256" width="68.6" height="8"/>
+    <rect style="fill: #ffffff" x="800" y="264" width="68.6" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="800" y="264" width="68.6" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="584.572,266 686.7,266 686.7,272 800,272 "/>
+    <polygon style="fill: #000000" points="559.4,266 573.4,261.2 587.4,266 573.4,270.8 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="559.4,266 573.4,261.2 587.4,266 573.4,270.8 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="591.4" y="254"> links</text>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:end;font-family:monospace;font-style:normal;font-weight:normal" x="796" y="260"> source</text>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="774.828,228 785,228 560.4,228 559.4,228 "/>
+    <polygon style="fill: #ffffff" points="800,228 786,232.8 772,228 786,223.2 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="800,228 786,232.8 772,228 786,223.2 "/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="672.7" y="225">target</text>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="900" y="420" width="88.4" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="420" width="88.4" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="944.2" y="436">&lt;&lt;Kind&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="944.2" y="455">Provides</text>
+    <rect style="fill: #ffffff" x="900" y="464" width="88.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="464" width="88.4" height="8"/>
+    <rect style="fill: #ffffff" x="900" y="472" width="88.4" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="900" y="472" width="88.4" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="834.3,290.236 834.3,353.496 944.2,353.496 944.2,418.992 "/>
+    <polygon style="fill: #ffffff" points="842.3,290.236 834.3,274.236 826.3,290.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="842.3,290.236 834.3,274.236 826.3,290.236 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="700" y="420" width="88.8" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="420" width="88.8" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="744.4" y="436">&lt;&lt;Kind&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="744.4" y="455">Depends</text>
+    <rect style="fill: #ffffff" x="700" y="464" width="88.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="464" width="88.8" height="8"/>
+    <rect style="fill: #ffffff" x="700" y="472" width="88.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="700" y="472" width="88.8" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="500" y="420" width="88.15" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="420" width="88.15" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="544.075" y="436">&lt;&lt;Kind&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="544.075" y="455">Conflicts</text>
+    <rect style="fill: #ffffff" x="500" y="464" width="88.15" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="464" width="88.15" height="8"/>
+    <rect style="fill: #ffffff" x="500" y="472" width="88.15" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="500" y="472" width="88.15" height="8"/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="834.3,291.245 834.3,354.001 744.4,354.001 744.4,418.992 "/>
+    <polygon style="fill: #ffffff" points="842.3,291.245 834.3,275.245 826.3,291.245 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="842.3,291.245 834.3,275.245 826.3,291.245 "/>
+  </g>
+  <g>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="834.3,290.236 834.3,353.496 544.075,353.496 544.075,418.992 "/>
+    <polygon style="fill: #ffffff" points="842.3,290.236 834.3,274.236 826.3,290.236 "/>
+    <polygon style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="842.3,290.236 834.3,274.236 826.3,290.236 "/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="280" y="540" width="248.7" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="540" width="248.7" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="404.35" y="556">&lt;&lt;Mixin&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="404.35" y="575">version</text>
+    <rect style="fill: #ffffff" x="280" y="584" width="248.7" height="36"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="584" width="248.7" height="36"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="283" y="598">+occi.rel.version: String</text>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="283" y="614">+occi.rel.op: enum(gt,lt,ge,le)</text>
+    <rect style="fill: #ffffff" x="280" y="620" width="248.7" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="280" y="620" width="248.7" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="640" y="540" width="202.5" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="540" width="202.5" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="741.25" y="556">&lt;&lt;Mixin&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="741.25" y="575">location</text>
+    <rect style="fill: #ffffff" x="640" y="584" width="202.5" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="584" width="202.5" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="643" y="598">+occi.rel.country: String</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="643" y="612.5">iso3166</text>
+    <rect style="fill: #ffffff" x="640" y="625" width="202.5" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="640" y="625" width="202.5" height="8"/>
+  </g>
+  <g>
+    <rect style="fill: #ffffff" x="980" y="540" width="117.8" height="44"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="980" y="540" width="117.8" height="44"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1038.9" y="556">&lt;&lt;Mixin&gt;&gt;</text>
+    <text font-size="16" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1038.9" y="575">lang</text>
+    <rect style="fill: #ffffff" x="980" y="584" width="117.8" height="41"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="980" y="584" width="117.8" height="41"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="983" y="598">+occi.rel.lang</text>
+    <text font-size="11.2" style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:italic;font-weight:normal" x="983" y="612.5">iso639</text>
+    <rect style="fill: #ffffff" x="980" y="625" width="117.8" height="8"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" x="980" y="625" width="117.8" height="8"/>
+  </g>
+</svg>

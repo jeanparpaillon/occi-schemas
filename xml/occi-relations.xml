@@ -18,7 +18,7 @@
 
   <occi:mixin term="version" scheme="http://schemas.ogf.org/occi/rel#" >
     <occi:attribute term="occi.rel.version" type="xs:string" title="Version" immutable="false" />
-    <occi:attribute term="occi.rel.op" type="occi:op" title="Relation operator" immutable="false" />
+    <occi:attribute term="occi.rel.op" type="xs:string" title="Relation operator (gt, lt, ge, le)" immutable="false" />
   </occi:mixin>
 
   <occi:mixin term="location" scheme="http://schemas.ogf.org/occi/rel#" >
@@ -26,21 +26,11 @@
   </occi:mixin>
 
   <occi:mixin term="lang" scheme="http://schemas.ogf.org/occi/rel#" >
-    <occi:attribute term="occi.rel.lang" type="xs:string" title="Language (ISO XXX)" immutable="false" />
+    <occi:attribute term="occi.rel.lang" type="xs:string" title="Language (ISO 639)" immutable="false" />
   </occi:mixin>
 
   <occi:mixin term="status" scheme="http://schemas.ogf.org/occi/rel#" >
     <occi:attribute term="occi.rel.status" type="xs:string" immutable="false"
 		    title="If resource has a status, the constraint is valid when resource status is one of the values" />
   </occi:mixin>
-
-  <xs:simpleType name="op" >
-    <xs:restriction base="xs:string" >
-      <xs:enumeration value="gt" />
-      <xs:enumeration value="lt" />
-      <xs:enumeration value="ge" />
-      <xs:enumeration value="le" />
-    </xs:restriction>
-  </xs:simpleType>
 </occi:extension>
-
